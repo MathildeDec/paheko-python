@@ -1,4 +1,4 @@
-# swagger_client.DefaultApi
+# paheko_client.DefaultApi
 
 All URIs are relative to *https://votre_association.paheko.cloud/api*
 
@@ -55,16 +55,16 @@ Récupérer tous les comptes comptables
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 
 try:
     # Récupérer tous les comptes comptables
@@ -100,16 +100,16 @@ Récupérer toutes les catégories comptables
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 
 try:
     # Récupérer toutes les catégories comptables
@@ -145,16 +145,16 @@ Récupérer les plans comptables
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 
 try:
     # Récupérer les plans comptables
@@ -190,16 +190,16 @@ Récupérer les comptes d'un plan comptable
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 id_chart = 56 # int | 
 
 try:
@@ -239,16 +239,16 @@ Supprimer une transaction
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 id_transaction = 56 # int | 
 
 try:
@@ -288,16 +288,16 @@ Récupérer une transaction
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 id_transaction = 56 # int | 
 
 try:
@@ -337,16 +337,16 @@ Modifier une transaction
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 id_transaction = 56 # int | 
 
 try:
@@ -386,16 +386,16 @@ Mettre à jour une transaction
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 id_transaction = 56 # int | 
 label = 'label_example' # str |  (optional)
 amount = 1.2 # float |  (optional)
@@ -439,16 +439,16 @@ Dissocier des inscriptions d'une écriture
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 id_transaction = 56 # int | 
 
 try:
@@ -488,16 +488,16 @@ Récupérer les inscriptions liées à une écriture
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 id_transaction = 56 # int | 
 
 try:
@@ -537,16 +537,16 @@ Associer des inscriptions à une écriture
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 subscriptions = [56] # list[int] | 
 id_transaction = 56 # int | 
 
@@ -588,16 +588,16 @@ Dissocier des écritures d'une transaction
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 id_transaction = 56 # int | 
 
 try:
@@ -637,16 +637,16 @@ Récupérer les écritures liées à une transaction
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 id_transaction = 56 # int | 
 
 try:
@@ -686,16 +686,16 @@ Associer des écritures à une transaction
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 transactions = [56] # list[int] | 
 id_transaction = 56 # int | 
 
@@ -737,16 +737,16 @@ Dissocier des utilisateurs d'une transaction
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 id_transaction = 56 # int | 
 
 try:
@@ -786,16 +786,16 @@ Lister les utilisateurs liés à une transaction
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 id_transaction = 56 # int | 
 
 try:
@@ -835,16 +835,16 @@ Associer une transaction à des utilisateurs
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 id_transaction = 56 # int | 
 
 try:
@@ -886,17 +886,17 @@ Crée une nouvelle transaction comptable avec les paramètres spécifiés.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
-body = swagger_client.AccountingTransactionBody() # AccountingTransactionBody | 
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
+body = paheko_client.AccountingTransactionBody() # AccountingTransactionBody | 
 
 try:
     # Créer une transaction comptable
@@ -935,16 +935,16 @@ Récupérer les années comptables
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 
 try:
     # Récupérer les années comptables
@@ -982,16 +982,16 @@ Exporte l'exercice indiqué. Utiliser 'current' pour l'exercice ouvert en cours.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 id_year = 'id_year_example' # str | 
 format = 'format_example' # str | 
 extension = 'extension_example' # str | 
@@ -1035,16 +1035,16 @@ Récupérer le journal d'une année comptable
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 id_year = 'id_year_example' # str | ID de l'exercice ou 'current' pour l'exercice en cours.
 code = 'code_example' # str |  (optional)
 id = 56 # int |  (optional)
@@ -1090,16 +1090,16 @@ Télécharge un fichier ZIP contenant tous les fichiers associés (documents, fi
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 
 try:
     # Télécharger tous les fichiers
@@ -1135,16 +1135,16 @@ Télécharger la base de données
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 
 try:
     # Télécharger la base de données
@@ -1180,16 +1180,16 @@ Récupérer le log d'erreurs système
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 
 try:
     # Récupérer le log d'erreurs système
@@ -1225,16 +1225,16 @@ Envoyer un rapport d'erreur
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 
 try:
     # Envoyer un rapport d'erreur
@@ -1272,16 +1272,16 @@ Permet d'importer un fichier CSV des inscriptions des membres aux activités.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 file = 'file_example' # str | 
 
 try:
@@ -1323,16 +1323,16 @@ Permet d'exécuter une requête SQL SELECT sur la base de données (aucune requ�
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 sql = 'sql_example' # str | 
 format = 'format_example' # str | 
 
@@ -1374,16 +1374,16 @@ Récupérer la liste des catégories de membres
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 
 try:
     # Récupérer la liste des catégories de membres
@@ -1419,16 +1419,16 @@ Exporter les membres d'une catégorie
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 id = 56 # int | 
 format = 'format_example' # str | 
 
@@ -1470,16 +1470,16 @@ Supprimer un utilisateur
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 id_user = 56 # int | 
 
 try:
@@ -1519,16 +1519,16 @@ Récupérer un utilisateur
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 id_user = 56 # int | 
 
 try:
@@ -1568,16 +1568,16 @@ Mettre à jour un utilisateur
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 id_user = 56 # int | 
 nom = 'nom_example' # str |  (optional)
 prenom = 'prenom_example' # str |  (optional)
@@ -1621,16 +1621,16 @@ Mettre à jour un utilisateur
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 id_user = 56 # int | 
 email = 'email_example' # str |  (optional)
 id_category = 56 # int |  (optional)
@@ -1676,16 +1676,16 @@ Identique à PUT, mais avec paramètres dans le corps.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 file = 'file_example' # str | 
 
 try:
@@ -1727,16 +1727,16 @@ Permet de simuler un import et d'afficher les erreurs ou modifications avant l'i
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 file = 'file_example' # str | 
 
 try:
@@ -1778,16 +1778,16 @@ Permet d'importer un fichier CSV/XLSX/ODS de la liste des membres.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 file = 'file_example' # str | 
 mode = 'mode_example' # str |  (optional)
 skip_lines = 56 # int | Nombre de lignes à ignorer (optional)
@@ -1843,16 +1843,16 @@ Ajoute un nouvel utilisateur à l'association.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 nom = 'nom_example' # str | 
 prenom = 'prenom_example' # str | 
 email = 'email_example' # str | 
@@ -1900,16 +1900,16 @@ Récupérer un fichier joint d'une page
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 page_uri = 'page_uri_example' # str | 
 filename = 'filename_example' # str | 
 
@@ -1951,16 +1951,16 @@ Récupérer le contenu HTML d'une page
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 page_uri = 'page_uri_example' # str | 
 
 try:
@@ -2000,16 +2000,16 @@ Lister les pages du site web
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 
 try:
     # Lister les pages du site web
@@ -2045,16 +2045,16 @@ Récupérer les informations d'une page
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paheko_client
+from paheko_client.rest import ApiException
 from pprint import pprint
 # Configure HTTP basic authorization: basicAuth
-configuration = swagger_client.Configuration()
+configuration = paheko_client.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi(swagger_client.ApiClient(configuration))
+api_instance = paheko_client.DefaultApi(paheko_client.ApiClient(configuration))
 page_uri = 'page_uri_example' # str | 
 
 try:
